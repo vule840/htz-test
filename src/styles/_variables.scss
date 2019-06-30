@@ -1,0 +1,67 @@
+// custom.scss
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext');
+
+
+// Roboto font
+$roboto: 'Roboto', sans-serif;;
+
+// Boje
+$plava: #00386C;
+$crvena: #CF1F25;
+
+
+
+body{
+	
+	// h3{
+	// 	color: white;
+	// }
+	font-family: $roboto;
+}
+
+
+/*********************************
+
+HEADER
+
+*********************************/
+
+
+#header{
+	background: $plava;
+	
+}
+
+/*********************************
+
+FOOTER
+
+*********************************/
+
+
+
+
+#footer{
+	background: $plava;
+	padding: 3rem 0;
+	h5{
+		color: white;
+	}
+}
+
+
+.carousel-caption{
+	top: 50%;
+}
+
+/*SVG*/
+.htz_logo{
+	width: 200px;
+	height: 100px;
+}
+.tanjur{
+	width: 50px;
+}
